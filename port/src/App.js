@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header className="app-header">
         <h3>Resume</h3>
       </header>
@@ -12,17 +12,19 @@ function App() {
             <div>Thanachot Boonsai</div>
             <div>Tel: 0997462435</div>
             <div>Email: tanachotboonsai@gmail.com</div>
+            <div>Network Engineer</div>
+            <div>Front-end Developer</div>
           </span>
         </div>
 
       <hr className="divider" />
         
-      <div className= "app-text" >
+      <div className= "app-text">
         <div style={{marginRight:'30px'}}>
           <div className="text">
             <div className="Title">Core Competencies</div>
             <div>Programmer Skills</div>
-            <ul className="text">
+            <ul>
               <li>SQL,Database</li>
               <li>python</li>
               <li>matlab</li>
@@ -34,18 +36,18 @@ function App() {
               <li>Github</li>
           </ul>
           <div className="Title">Education</div>
-          <span style={{color:'orange'}}>BACHELOR OF ENGINEER ELECTRONIC OF COMPUTER</span> &nbsp; &nbsp; &nbsp;<span style={{fontSize:'20px'}}>(2021-present)</span>
+          <span style={{color:'brown'}}>BACHELOR OF ENGINEER ELECTRONIC OF COMPUTER</span> &nbsp; &nbsp; &nbsp;<span style={{fontSize:'20px'}}>(2021-present)</span>
           <div>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</div>
           <div className="Title">Language</div>
-          <ul className="text">
+          <ul>
             <li>Thai (Native)</li>
             <li>English (pre-intermediate)</li>
           </ul>
           <div className="Title">Availability</div>
-          <div className="text">I am available to begin from 25 November 2024</div>
+          <div>I am available to begin from 25 November 2024</div>
           </div>
         </div>
-
+        
 
         <div>
           <div className="Title">Professional Summary</div>
