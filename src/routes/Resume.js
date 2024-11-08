@@ -11,7 +11,7 @@ const Resume = () => {
       <h3 style={{marginTop:'80px',marginBottom:'30px'}}>Resume</h3>
     </header>
     <div className= "profile">
-        <img src="/picture/profile.jpg" />
+        <img src={`${process.env.PUBLIC_URL}/picture/profile.jpg`} />
         <span className="Name">
           <div>Thanachot Boonsai</div>
           <div>Tel: 0997462435</div>
