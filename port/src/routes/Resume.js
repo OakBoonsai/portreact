@@ -1,11 +1,14 @@
 import React from 'react'
+import Navbar from "../component/Navbar"
+import Footer from "../component/Footer"
 
-const Project = () => {
+const Resume = () => {
   return (
     <div>
-    <div>
+      <Navbar/>
+    <div style={{color:'white',marginBottom:'30px'}}>
     <header className="app-header">
-      <h3>Resume</h3>
+      <h3 style={{marginTop:'80px',marginBottom:'30px'}}>Resume</h3>
     </header>
     <div className= "profile">
         <img src="/picture/profile.jpg" />
@@ -18,7 +21,7 @@ const Project = () => {
         </span>
       </div>
 
-    <hr className="divider" />
+    <hr/>
       
     <div className= "app-text">
       <div style={{marginRight:'30px'}}>
@@ -37,15 +40,13 @@ const Project = () => {
             <li>Github</li>
         </ul>
         <div className="Title">Education</div>
-        <span style={{color:'brown'}}>BACHELOR OF ENGINEER ELECTRONIC OF COMPUTER</span> &nbsp; &nbsp; &nbsp;<span style={{fontSize:'20px'}}>(2021-present)</span>
+        <span style={{color:'orange'}}>BACHELOR OF ENGINEER ELECTRONIC OF COMPUTER</span> &nbsp; &nbsp;<span style={{fontSize:'20px'}}>(2021-present)</span>
         <div>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</div>
         <div className="Title">Language</div>
         <ul>
           <li>Thai (Native)</li>
           <li>English (pre-intermediate)</li>
         </ul>
-        <div className="Title">Availability</div>
-        <div>I am available to begin from 25 November 2024</div>
         </div>
       </div>
       
@@ -64,8 +65,10 @@ const Project = () => {
         <div className="text"><span style={{fontWeight:'bold'}}>2024 Strawberry disease detection -</span>  I build trained chatbot in Line by neural network</div>
       </div>
     </div>
-  </div></div>
+  </div>
+  <Footer/>
+  </div>
   )
 }
 
-export default Project
+export default Resume
