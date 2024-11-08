@@ -20,9 +20,7 @@ const Resume = () => {
           <div>Front-end Developer</div>
         </span>
       </div>
-
     <hr/>
-      
     <div className= "app-text">
       <div style={{marginRight:'30px'}}>
         <div className="text">
