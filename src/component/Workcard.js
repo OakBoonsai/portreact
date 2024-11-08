@@ -74,39 +74,41 @@ const Workcard = () => {
         </div>
 
         <h1 className="project-heading">My skill</h1>
-        <div style={{display:"flex"}}>
-            <div className="skill-card">
+        <div style={{display:"flex", justifyContent: "center", alignItems: "center"}}>
+            <div className="skill-card-lang">
                 <div className="logo">
                 <center><img className="data-container" src={py} alt="image"/>
-                <h3 className="data-text">python</h3>
+                <h3 className="data-text-lang">python</h3>
                 </center>
                 </div>
             </div>
-            <div className="skill-card">
+            <div className="skill-card-lang">
                 <div className="logo">
                 <center><img className="data-container" src={flut} alt="image"/>
-                <h3 className="data-text">flutter</h3>
+                <h3 className="data-text-lang">flutter</h3>
                 </center>
                 </div>
             </div>
-            <div className="skill-card">
+            <div className="skill-card-lang">
                 <div className="logo">
                 <center><img className="data-container" src={sql} alt="image"/>
-                <h3 className="data-text">SQL</h3>
+                <h3 className="data-text-lang">SQL</h3>
                 </center>
                 </div>
             </div>
-            <div className="skill-card">
+        </div>
+        <div style={{display:"flex", justifyContent: "center", alignItems: "center"}}>
+            <div className="skill-card-lang">
                 <div className="logo">
                 <center><img className="data-container" src={js} alt="image"/>
-                <h3 className="data-text">Java Script</h3>
+                <h3 className="data-text-lang">Java Script</h3>
                 </center>
                 </div>
             </div>
-            <div className="skill-card">
+            <div className="skill-card-lang">
                 <div className="logo">
                 <center><img className="data-container" src={html} alt="image"/>
-                <h3 className="data-text">HTML</h3>
+                <h3 className="data-text-lang">HTML</h3>
                 </center>
                 </div>
             </div>
