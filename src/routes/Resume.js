@@ -5,11 +5,11 @@ import IntroPic from "../assets/profile.jpg";
 
 const Resume = () => {
   return (
-    <div>
+  <div>
       <Navbar/>
-    <div style={{color:'white',marginBottom:'30px'}}>
+    <div style={{color:'white',marginBottom:'60px'}}>
     <header className="app-header">
-      <h3 style={{marginTop:'80px',marginBottom:'30px'}}>Resume</h3>
+      <h2 style={{marginTop:'80px',marginBottom:'30px'}}>Resume</h2>
     </header>
     <div className= "profile">
         <img src={ IntroPic } alt="IntroPic" />

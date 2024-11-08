@@ -8,6 +8,9 @@ const Footer = () => {
     <div className="footer">
         <div className="footer-container">
             <div className="left">
+            <h4 style={{color:"white"}}>
+                About me:<br/><br/>
+            </h4>
                 <div className="phone">
                     <h4 style={{color:"white"}}><FaPhone size={20} style={{color:"#fff",marginRight: "2rem"}}/>099-746-2435</h4>
                 </div> 
@@ -32,7 +35,7 @@ const Footer = () => {
                 <h4 style={{color:"white"}}>
                     About me:<br/>
                 </h4>
-                <p style={{color:"white"}}>
+                <p>
                     I'm study college of industrial technology Computer engineering 4th year in KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK (kmutnb). I'm passionate about networking and computer hardware
                 </p>
             </div>

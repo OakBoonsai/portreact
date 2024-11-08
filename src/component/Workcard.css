@@ -10,14 +10,16 @@
 }
 
 .project-card{
-    background:rgb(41, 41, 41);
+    background:rgb(119, 119, 119);
     padding:1.2rem 1rem;
     border-radius: 10px;
     margin-right: 20px;
 }
 
 .project-card img{
-    width:100%
+    width:100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .project-title{
@@ -33,14 +35,53 @@
 
 .animate-scroll {
     overflow: hidden;
-    animation: scroll 15s linear infinite;
+    animation: scroll 30s linear infinite;
 }
+
+.data-container {
+    height: 150px;       
+    width: 150px;        
+    object-fit: contain;   
+    object-position: center;
+}
+
+.education-card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    margin:30px;
+    height:200px;
+}
+
+.skill-card {
+    display: flex;
+    align-items: center;
+    background-color: #c2c2c2;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    margin:30px;
+    height:200px;
+    width: 200px;
+}
+
+.data-text{
+    color: black;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.logo{
+    width: 200px;
+}
+
 @keyframes scroll {
     0% {
-        transform: translateX(100%);
+        transform: translateX(150%);
     }
     100% {
-        transform: translateX(-110%);
+        transform: translateX(-150%);
     }
 }
 
@@ -51,4 +92,53 @@
         margin:auto;
         grid-template-columns: 1fr;
     }
+}
+
+.mask{
+    width:100%;
+    height: 100vh;
+    position: relative;
+}
+
+.into-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.work-container{
+    height: 100%;
+    width: 100%;
+}
+
+.txt{
+    margin-top: 500px;
+}
+
+.work-container .txt{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.work-container .txt p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 0.6rem 0 0.5rem;
 }
