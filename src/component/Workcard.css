@@ -4,11 +4,8 @@
 }
 
 .project-container{
-    max-width: 1140px;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:40px;
+    display: flex;
     padding-bottom: 5rem;
 }
 
@@ -16,7 +13,7 @@
     background:rgb(41, 41, 41);
     padding:1.2rem 1rem;
     border-radius: 10px;
-    text-align: center;
+    margin-right: 20px;
 }
 
 .project-card img{
@@ -33,6 +30,20 @@
     font-size:1.1rem;
     text-align: justify;
 }
+
+.animate-scroll {
+    overflow: hidden;
+    animation: scroll 15s linear infinite;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-110%);
+    }
+}
+
 
 @media screen and (max-width:740px){
     .project-container{

@@ -16,9 +16,15 @@ const Footer = () => {
                     <h4 style={{color:"white"}}><FaMailBulk size={20} style={{color:"#fff",marginRight: "2rem"}}/>tanachotboonsai@gmail.com</h4>
                 </div>
                 <div className="social">
-                    <FaFacebook size={40} style={{color:"aqua",marginRight: "1rem"}}/>
+                <a href="https://www.facebook.com/oakmol/" target="_blank" rel="noopener noreferrer">
+                    <FaFacebook size={40} style={{color:"blue",marginRight: "1rem"}}/>
+                </a>
+                <a href="https://www.youtube.com/@o.s.r.vchannel6269" target="_blank" rel="noopener noreferrer">
                     <FaYoutube size={40} style={{color:"red",marginRight: "1rem"}}/>
+                </a>
+                <a href="https://github.com/OakBoonsai" target="_blank" rel="noopener noreferrer">
                     <FaGithub size={40} style={{color:"#fff",marginRight: "1rem"}}/>
+                </a>
                 </div>
             </div>
 
